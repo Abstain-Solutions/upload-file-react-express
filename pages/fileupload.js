@@ -1,8 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import styles from '../styles/Home.module.css'
-
-export default class Home extends React.Component {state = {
+export default class fileupload extends React.Component {
+	state = {
 		selectedFile:'',
 		file_error:'',
 		success:'',
