@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About Project
 
-## Getting Started
+Upload file via react and express js.
 
-First, run the development server:
+## Steps to set up DB
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Download or clone using git clone https://github.com/abstainsolutions/react-crud-node.git
+2. Run any local server like wamp or xamp as we need to make DB connection
+3. Find react.sql file at root of application
+4. Create DB named "react" and import sql
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Steps to set up run node server
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+DB details can be changed from index.js inside node folder. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Move inside node folder in root directory
+2. Install modules via following commands
+3. npm i express
+4. npm i cors
+5. npm i multer
+6. npm i body-parser
+7. node index.js					// runs node server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Steps to set up and run react app
 
-## Learn More
+1. Move into project main directory run following command
+2. npm install
+3. npm run dev 
+4. Open returned url in preferred browser
 
-To learn more about Next.js, take a look at the following resources:
+## Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot](screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+Abstain Solutions - developer.abstain@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All Projects : https://github.com/abstainsolutions/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Website : https://www.abstainsolutions.com/
